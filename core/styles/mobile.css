@@ -1,0 +1,114 @@
+@media (max-width:480px)  {
+	body {
+		max-width: 100%;
+	}
+	header {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	nav ul {
+		margin-top: 1px;
+	}
+
+	header .logo {
+		max-width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	header .cta {
+		position: fixed;
+		top: 95vh;
+		border:1px solid #0B2447;
+	}
+	main .hero {
+		max-width: 100%;
+		flex-direction: column;
+		min-height: 0;
+		padding-left: 3rem;
+	}
+	main .hero-cta {
+		max-width: 100%;
+		margin-left: -2rem;
+	}
+
+	main .logo {
+		max-width: 100%;
+		padding-top: 14px;
+		margin-left: -20px;		
+	}
+	main .hero .logo {
+		display: none;
+	}
+
+	main .about {
+		max-width: 100%;
+		flex-direction: column;
+		min-height: 0;
+	}
+	main .about .featured {
+		flex: 1;
+		max-width: 350px;
+		max-height: 350px;
+	}
+	main .about .description {
+		margin-block: 0;
+		margin-left: 0;
+		padding: 0;
+		min-width: 350px;
+	}
+
+	.blog-title {
+		font-weight: 300;
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 3rem;
+		font-size: 2rem;
+	}
+	.blogpost {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		flex-flow: column wrap;
+	}
+
+	main .container {
+		display: flex;
+		flex-direction: column;
+	}
+	main article .postcard {
+		flex-direction: column;
+		max-width: 90%;
+		flex: 0;
+
+	}
+	main article .column {
+		width: 95%;
+	 	border-radius: 30px;
+	 	padding: 0 0 1px 0;
+	 	margin-bottom: 2rem;
+	 	margin-left: auto;
+	}
+	main article img {
+		width: 100%;
+		height: 250px;
+	}
+	main article #excerpt {
+		padding-top: .5rem;
+		padding: 9px;
+	}
+	main aside .card {
+		padding: 0 0 0 0;
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	main aside button {
+		width: 100%;
+		padding: 1rem 0 1rem 0;
+		margin-left: auto;
+		margin-left: auto;
+	}
+}

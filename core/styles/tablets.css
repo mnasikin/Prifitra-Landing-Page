@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) and (min-width: 481px) {
+	body {
+		overflow-x: hidden;
+	}
+	main .hero {
+		min-height: 40vh;
+		padding: 2rem 1px 1px 1px;
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	main .hero .logo {
+		padding: 0 0 0 2rem;
+	}
+	 main .about {
+	 	flex-direction: column;
+	 	width: 99%;
+	 	padding: 2rem 10px 1px 1px;
+	 	min-height: 40vh;
+	 }
+	 main .about .description {
+	 	margin: 4rem 3rem 4rem 3rem;
+	 }
+	 main .container {
+	 	flex-direction: column;
+	 	max-width: 100%;
+	 }
+	 main article .column {
+	 	max-width: 45%;
+	 	margin-right: auto;
+	 }
+	 main article img {
+		width: 100%;
+		height: 250px;
+	}
+	 main aside .card {
+		padding-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
